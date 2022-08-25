@@ -1,0 +1,18 @@
+
+// To customize boostrap, we set variables here before we import bootstrap.
+
+// global settings for bootstrap.
+$enable-gradients: true;
+$enable-shadows: true;
+
+// by default, it is bs-, and turns into '--bs-' prefix.
+$prefix: "mo-"; //this is important to avoid conflicting.
+
+// customize some defaults.
+$body-color: #333;
+$body-bg: #332277;
+$border-radius: .5rem;
+$success: #7952b3;
+
+// We can import only the necessary scss if needs fine-tuning.
+@import "~bootstrap/scss/bootstrap";
