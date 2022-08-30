@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>网管系统 站点信息管理</title>
+
+    </head>
+    <body >
+        <div class="container py-4 px-3 mx-auto">
+            <h3>网管系统 系统设置</h3>
+            <p> Back to <a href="./index.html" >Index</a></p>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item "><a href="settings-index.html">系统设置</a></li>
+                    <li class="breadcrumb-item active">站点信息管理</li>
+
+                </ol>
+            </nav>
+           <div>
+
+            <!-- buttons of operations -->
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-secondary">新增</button>
+                <button type="button" class="btn btn-secondary">修改</button>
+                <button type="button" class="btn btn-secondary">删除</button>
+
+            </div>
+            <!-- a table of rows -->
+            <table class="table">
+                <thead>
+                    <tr>
+                      <th scope="col" class="">
+                        <input type="checkbox" class="form-check-input" value="all">
+                      </th>
+
+                      <th scope="col">站点编号</th>
+                      <th scope="col">站点名称</th>
+                      <th scope="col">站点里程</th>
+                      <th scope="col">站点类型</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <th >
+                            <input type="checkbox" class="form-check-input" value="0">
+                          </th>
+                      <td>0</td>
+                      <td>控制中心（铁机路）</td>
+                      <td></td>
+                      <td>0-总站（中心)</td>
+                    </tr>
+                    <tr>
+                        <th >
+                            <input type="checkbox" class="form-check-input" value="0">
+                          </th>
+                      <td>1</td>
+                      <td>金潭路</td>
+                      <td>850</td>
+                      <td>1-分站（车站）</td>
+                    </tr>
+                    <tr>
+                        <th >
+                            <input type="checkbox" class="form-check-input" value="0">
+                          </th>
+                      <td>2</td>
+
+                        <td>宏图大道</td>
+                        <td>1705</td>
+                        <td>1-分站（车站）</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <input type="checkbox" class="form-check-input" value="0">
+                          </th>
+                      <td>3</td>
+
+                        <td>塔子湖</td>
+                        <td>3595</td>
+                        <td>1-分站（车站）</td>
+                    </tr>
+                  </tbody>
+            </table>
+
+            <!-- for add/new -->
+
+            <!-- for modification -->
+
+           </div>
+
+        </div>
+        <script src="./main.js"></script>
+
+
+    </body>
+</html>
